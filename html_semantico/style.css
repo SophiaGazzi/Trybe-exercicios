@@ -17,9 +17,10 @@ li {
 }
 
 .tabela { 
-    display:block;
-   height: 260px;
+   display: inline-block;
+   height: 300px;
    width: 360px;
+ text-align:initial;
    border-style: double;
    background-color: rgb(155, 252, 252);
    
