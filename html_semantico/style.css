@@ -1,12 +1,35 @@
+body {
+    background-color: rgb(203, 228, 228);
+}
+
+
 
 .cabecalho {
-    color: rgb(55, 88, 223);
+    color: black;
     display: inline-block;
-    background-color: rgb(148, 172, 164);
+    background-color: rgb(88, 185, 181);
     
 }
 li {
     display: inline-block;
    width: 70px;
     
+}
+
+.tabela { 
+    display:block;
+   height: 260px;
+   width: 360px;
+   border-style: double;
+   background-color: rgb(155, 252, 252);
+   
+}
+img {
+    height: 300px;
+    
+}
+
+footer {
+    background-color: aqua;
+    border-style:dotted;
 }
