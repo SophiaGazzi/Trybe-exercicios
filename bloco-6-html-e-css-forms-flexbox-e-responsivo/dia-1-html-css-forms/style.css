@@ -58,3 +58,19 @@
  padding: 10px;
  border-radius: 0,5px;
   }
+
+  .btn-secondary {
+    background-color: rgb(88, 71, 122);
+  }
+
+  .btn-primary{
+    background-color: rgb(74, 34, 110);
+    border-color: rgb(117, 46, 184);
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(119, 67, 167);
+    border-color: rgb(127, 96, 155);
+
+  }
+
