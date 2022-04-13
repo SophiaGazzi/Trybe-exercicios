@@ -31,6 +31,6 @@ const people = [
 // escreva filterPeople abaixo
 const {bornIn, nationality} = people;
 const filterPeople = (pessoas) => {
-   pessoas.filter(() => (bornIn <= 2000 && nationality === 'Australian')); 
+   return pessoas.filter(({bornIn, nationality}) => (bornIn <= 2000 && nationality === 'Australian')); 
 }
 console.log(filterPeople(people));
