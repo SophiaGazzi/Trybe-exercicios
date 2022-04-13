@@ -63,8 +63,8 @@ const books = [
 
 
 function nameAndAge(books) {
- const nameAge = books.map((livro) => {
- [{ author: livro.author.name , age: ( livro.releaseYear - livro.birthYear )}]
+    const nameAge = books.map((livro) => {
+        return { author: livro.author.name, age: livro.releaseYear - livro.author.birthYear }
     })
     return nameAge;
 }
